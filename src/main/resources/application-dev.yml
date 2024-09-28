@@ -8,9 +8,9 @@ spring:
       datasource:
         master:
           username: root
-          password: Lwb123456
+          password: 123456
           driver-class-name: com.mysql.cj.jdbc.Driver
-          url: jdbc:mysql://1.94.23.145:3306/company_project?useUnicode=true&useSSL=false&characterEncoding=utf8&serverTimezone=GMT%2b8
+          url: jdbc:mysql://localhost:3306/manager?useUnicode=true&useSSL=false&characterEncoding=utf8&serverTimezone=GMT%2b8
         oracle:
           username: root
           password: 123456
@@ -24,5 +24,5 @@ spring:
 
 file:
   #文件上传目录 绝对路径 末尾不需要加 /
-  path: D:/files #windows
+  path: D:\Develop\IdeaProjects\files #windows
   #path: /data/files #linux

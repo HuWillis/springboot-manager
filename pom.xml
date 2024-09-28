@@ -157,6 +157,18 @@
             <artifactId>sa-token-dialect-thymeleaf</artifactId>
             <version>1.38.0</version>
         </dependency>
+        <!-- 请使用最新版本 -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>easyexcel</artifactId>
+            <version>3.0.5</version>
+        </dependency>
+        <!-- 请检查最新版本 -->
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+            <version>5.8.9</version>
+        </dependency>
 
     </dependencies>
 
